@@ -408,3 +408,5 @@ r_dir_file(system_server, oemfs)
 # Do not allow accessing SDcard files as unsafe ejection could
 # cause the kernel to kill the system_server.
 neverallow system_server sdcard_type:file rw_file_perms;
+
+allow system_server adbtcp_prop:property_service set;
