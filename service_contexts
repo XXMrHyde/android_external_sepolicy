@@ -105,6 +105,7 @@ task                                      u:object_r:system_server_service:s0
 telecom                                   u:object_r:system_server_service:s0
 telephony.registry                        u:object_r:system_server_service:s0
 textservices                              u:object_r:system_server_service:s0
+torch                                     u:object_r:system_server_service:s0
 trust                                     u:object_r:system_server_service:s0
 tv_input                                  u:object_r:system_server_service:s0
 uimode                                    u:object_r:system_server_service:s0
